@@ -21,13 +21,9 @@ pprint(parsed_response)
 # What is the most recent unemployment rate? And the corresponding date? 
 # Display the unemployment rate using a percent sign.
 
-breakpoint()
-
-
-data = parsed_response["data"][0]
-print(latest)
 print("-------------------------")
 print("LATEST UNEMPLOYMENT RATE:")
+#print(data[0])
 print(f"{data[0]['value']}%", "as of", data[0]["date"])
 
 #Challenge B
