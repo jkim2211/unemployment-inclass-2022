@@ -1,4 +1,4 @@
-#this is the "requirements.txt" file...
+# this is the "requirements.txt" file...
 python-dotenv
 
 pandas
@@ -6,3 +6,6 @@ pandas
 requests
 
 plotly
+
+# using this to find and run our test
+pytest
