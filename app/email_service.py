@@ -1,5 +1,3 @@
-
-updated email service:
 # app/email_service.py
 
 import os
@@ -61,6 +59,4 @@ if __name__ == "__main__":
     </ul>
     """
 
-    recipient_address = input("Please provide the recipient address: ")
-
-    send_email(subject=example_subject, html=example_html, recipient_address=recipient_address)
+    send_email(subject=example_subject, html=example_html)
