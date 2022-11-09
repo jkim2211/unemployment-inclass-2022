@@ -1,5 +1,3 @@
-
-updated email service:
 # app/email_service.py
 
 import os
