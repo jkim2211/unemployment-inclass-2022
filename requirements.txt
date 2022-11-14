@@ -1,4 +1,5 @@
 # this is the "requirements.txt" file...
+
 python-dotenv
 
 pandas
@@ -9,5 +10,9 @@ plotly
 
 sendgrid==6.6.0
 
-# using this to find and run our test
+flask # <--- ADD FOR WEB APP
+#gunicorn
+
+
+# using this to find and run our tests:
 pytest
