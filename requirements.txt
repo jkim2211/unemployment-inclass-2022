@@ -1,3 +1,4 @@
+
 # this is the "requirements.txt" file...
 
 python-dotenv
@@ -10,8 +11,8 @@ plotly
 
 sendgrid==6.6.0
 
-flask # <--- ADD FOR WEB APP
-#gunicorn
+flask
+gunicorn # <--- UNCOMMENT FOR HEROKU DEPLOY
 
 
 # using this to find and run our tests:
